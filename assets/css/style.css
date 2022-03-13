@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../images/black\ tech\ background.jpg) ;
+}
+/* changed header tag */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #252027;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header h1 .seo {
+    color: #ffffff;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(../images/laptop\ with\ code.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.content {
+    width: 60%;
+    display: inline-block;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+
+.run-bud {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #252027;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+.run-buddy {
+    margin-bottom: 32px;
+
+}
+
+.portfolio {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.password-generator {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.run-buddy h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.portfolio h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.password-generator h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.run-buddy img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.portfolio img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.password-generator img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.About-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #252027;
+    color: #ffffff;
+}
+
+.my-work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #252027;
+    color: #ffffff;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #252027;
+    color: #ffffff;
+}
+
+.About-me img {
+    max-height: 200px;
+}
+
+.my-work img {
+    max-height: 200px;
+}
+
+.contact-me img {
+    max-height: 200px;
+}
+
+.About-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.my-work h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+.visit {
+    color: #ffffff;
+}
